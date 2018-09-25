@@ -6,7 +6,7 @@ The work is based mainly on the approach proposed by Poria et al. in "Aspect ext
 Files description:
 - AspectExtraction_CNN.ipynb: the notebook containing all code, models, word embedding procedures etc.
 - glove.6B.300d.txt: the pre-trained embeddings from GloVe
-- Restaurants.xml: the dataset used for Training and Validation
+- Restaurants.xml and Laptop.xml: the datasets used for Training and Validation
 - RapportoAttività.pdf: the project report
 
 [1] Poria et al., 2016 "Aspect extraction for opinion mining with a deep convolutional neural
