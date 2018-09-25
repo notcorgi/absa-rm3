@@ -7,6 +7,7 @@ Files description:
 - AspectExtraction_CNN.ipynb: the notebook containing all code, models, word embedding procedures etc.
 - glove.6B.300d.txt: the pre-trained embeddings from GloVe
 - Restaurants.xml: the dataset used for Training and Validation
+- RapportoAttività.pdf: the project report
 
 [1] Poria et al., 2016 "Aspect extraction for opinion mining with a deep convolutional neural
 network" http://www.sentic.net/aspect-extraction-for-opinion-mining.pdf
