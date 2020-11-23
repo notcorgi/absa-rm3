@@ -34,10 +34,12 @@ model.add(layers.Dense(46, activation='softmax'))
 
 
 model.compile(optimizer=optimizers.RMSprop(),
-              # loss=losses.categorical_crossentropy,
-              # metrics=[metrics.categorical_accuracy])
-              loss=losses.mse,
-              metrics=['acc'])
+              loss=losses.categorical_crossentropy,
+              # loss=losses.binary_crossentropy,
+              metrics=[metrics.categorical_accuracy])
+
+              # loss=losses.mse,
+              # metrics=['acc'])
 
 
 print('____Training model____')
@@ -62,10 +64,11 @@ pyplot.xlabel("epoch")
 pyplot.ylabel("loss")
 print(history.history['loss'])
 print(history.history['val_loss'])
-print(history.history['acc'])
-print(history.history['val_acc'])
-# print(history.history['categorical_accuracy'])
-# print(history.history['val_categorical_accuracy'])
+# print(history.history['acc'])
+# print(history.history['val_acc'])
+print(history.history['categorical_accuracy'])
+print(history.history['val_categorical_accuracy'])
+
 
 
 pyplot.show()
