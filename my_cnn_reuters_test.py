@@ -8,6 +8,8 @@ from keras import optimizers
 from keras import losses
 from keras import metrics
 from matplotlib import pyplot
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 def vectorize_sequences(sequences, dimensions=10000) :
     results = np.zeros((len(sequences), dimensions))
